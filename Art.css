@@ -1,0 +1,169 @@
+body{
+background-color: black;
+}
+#contingut{
+background-color: white;    
+position: absolute;
+width: 1400px;
+height: 800px;
+left: 280px;
+top: 120px;
+border: solid 3px red;
+
+}
+
+#Photoshop{
+background-color: white;    
+position: absolute;
+width: 250px;
+height: 250px;
+left:250px;
+top: 120px;
+border: solid 3px red;  
+}
+#Iluminacio{
+background-color: white;    
+position: absolute;
+width: 250px;
+height: 250px;
+left:557px;
+top: 120px;
+border: solid 3px red; 
+}
+#Animacio{
+background-color: white;        
+position: absolute;
+width: 250px;
+height: 250px;
+left:860px;
+top: 120px;
+border: solid 3px red; 
+}
+#Modelatge{
+background-color: white;    
+position: absolute;
+width: 250px;
+height: 250px;
+left:250px;
+top: 500px;
+border: solid 3px red; 
+}
+#Textur{
+background-color: white;    
+position: absolute;
+width: 250px;
+height: 250px;
+left:557px;
+top: 500px;
+border: solid 3px red; 
+}
+#Altres{
+background-color: white;    
+position: absolute;
+width: 250px;
+height: 250px;
+left:860px;
+top: 500px;
+border: solid 3px red; 
+}
+h5{
+position: absolute;
+color: white;
+left: 904px;
+font-size: 80px;
+top: -120px;
+}
+h6{
+position: absolute;
+color: black;
+font-size: 35px;
+top: 0px;
+left: 305px;
+}
+#ps{
+position: absolute;
+left: 605px;
+}
+#il{
+position: absolute;
+left: 900px;
+}
+#mo{
+position: absolute;
+top: 375px;
+left:305px;
+}
+#text{
+position: absolute;
+top: 375px;
+left:585px;
+}
+#al{
+position: absolute;
+top: 375px;
+left:930px;
+}
+#poka{
+    position: absolute;
+    height: 250px;
+    width: auto;
+    left: 35px;
+}
+#casc{
+    position: absolute;
+    height: 250px;
+    width: auto;
+    left: 0px;
+}
+#pj{
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 0px;
+    top: 20px;
+}
+#llum{
+    position: absolute;
+    height: 141px;
+    width: auto;
+    left: 0px;
+    top: 50px;
+}
+#Photoshop:hover{
+    z-index: 3;
+    transform: scale(3) translateY(40px);
+    animation-duration: 3s; 
+}
+#Iluminacio:hover{
+    z-index: 2;
+    transform: scale(3) translateY(40px);
+    animation-duration: 3s; 
+}
+#Textur:hover{
+    z-index: 2;
+    transform: scale(3) translateY(-60px);
+    animation-duration: 3s;
+    
+}
+.vid{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: 0px;
+}
+#Modelatge:hover{
+    z-index: 2;
+    transform: scale(3) translateY(-60px);
+    animation-duration: 3s;
+        
+}
+#Animacio:hover{
+    z-index: 2;
+    transform: scale(3) translateY(40px);
+    animation-duration: 3s; 
+}
+#Altres:hover{
+    z-index: 5;
+    transform: scale(3) translateY(-60px);
+    animation-duration: 3s; 
+}

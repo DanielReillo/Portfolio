@@ -1,0 +1,33 @@
+body{
+    background-image:url(fotos/Portada.jpg);
+    background-repeat: no-repeat;
+    
+}
+#codi{
+    position: absolute;
+    top: 800px;
+    left: 30px;
+}
+#codi:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#art{
+    position: absolute;
+    top: 250px;
+    margin-left: 1100px;
+    transform: rotate(-10deg);
+}   
+#art:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#jo{
+    position: absolute;
+    top: 50px;
+    margin-left: 725px;
+    }   
+#jo:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}

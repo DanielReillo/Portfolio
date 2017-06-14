@@ -1,0 +1,32 @@
+body{
+    background-image:url(fotos/fondoreillo.jpg);
+    background-repeat: no-repeat;
+    
+}
+#inici{
+    position: absolute;
+    top: 840px;
+    left: 823px;
+}
+#jo{
+    position: absolute;
+    top: 120px;
+    margin-left: 730px;
+    } 
+#danielreillo{
+background-color: white;    
+position: absolute;
+width: 650px;
+height: 500px;
+left:645px;
+top: 280px;
+border: solid 3px red; 
+}
+#inici:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+p{
+    font-size: 50;
+    margin-left: 10px;
+}
